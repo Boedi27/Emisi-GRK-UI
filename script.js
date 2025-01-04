@@ -5,7 +5,7 @@ let totalEmisi = {
     TtTransportasi: 1252.87,
     TtSemen: 7104.83,
     TtLPG: 373.53,
-    TtSampah: 101.08,
+    TtSampah: 93.83,
     TtKertas: 62.15,
 }
 
@@ -520,7 +520,7 @@ function gantiTeks() {
     TtTransportasi: 1252.87,
     TtSemen: 7104.83,
     TtLPG: 373.53,
-    TtSampah: 101.08,
+    TtSampah: 93.83,
     TtKertas: 62.15,
   }
   //console.log(totalEmisi)
@@ -540,7 +540,7 @@ function gantiTeks() {
     TtTransportasi: 1222.20,
     TtSemen: 10.55,
     TtLPG: 357.49,
-    TtSampah: 100.37,
+    TtSampah: 93.12,
     TtKertas: 59.48,
   }
   //console.log(totalEmisi)
@@ -560,7 +560,7 @@ function gantiTeks() {
     TtTransportasi: 1230.25,
     TtSemen: 10.55,
     TtLPG: 361.70,
-    TtSampah: 100.56,
+    TtSampah: 93.30,
     TtKertas: 60.18,
   }
   //console.log(totalEmisi)
