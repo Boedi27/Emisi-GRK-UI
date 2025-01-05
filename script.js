@@ -4,7 +4,7 @@ let totalEmisi = {
     TtAC: 1634.50,
     TtTransportasi: 1252.87,
     TtSemen: 7104.83,
-    TtLPG: 373.53,
+    TtLPG: 202.43,
     TtSampah: 93.83,
     TtKertas: 62.15,
 }
@@ -519,7 +519,7 @@ function gantiTeks() {
     TtAC: 1634.50,
     TtTransportasi: 1252.87,
     TtSemen: 7104.83,
-    TtLPG: 373.53,
+    TtLPG: 202.43,
     TtSampah: 93.83,
     TtKertas: 62.15,
   }
@@ -539,7 +539,7 @@ function gantiTeks() {
     TtAC: 1701.18,
     TtTransportasi: 1222.20,
     TtSemen: 10.55,
-    TtLPG: 357.49,
+    TtLPG: 193.75,
     TtSampah: 93.12,
     TtKertas: 59.48,
   }
@@ -559,7 +559,7 @@ function gantiTeks() {
     TtAC: 1701.18,
     TtTransportasi: 1230.25,
     TtSemen: 10.55,
-    TtLPG: 361.70,
+    TtLPG: 196.03,
     TtSampah: 93.30,
     TtKertas: 60.18,
   }
