@@ -111,9 +111,9 @@ document.getElementById('update_form').addEventListener('submit', function(event
   //Perhitungan Dalam Table
   let totalFSP = 12494.53 * (valSolarPanel/100) // Rumus Benar
   let totalJAC = (((13148364*68.9/100)*valJenisAC/100 - (4.2 * (13148364*68.9/100)*valJenisAC/100)/5.7 )*0.87)/1000// Rumus benar
-  let totalBis = (53.831*(10 * valBisKuning/100))-((((((315.85-(315.85*20/100))*7.8*16)/250)*(10 * valBisKuning/100))*0.87)*312/1000)  // Rumus salah
-  let totalCFD = 4.4929*9*valCarFree // Rumus Benar
-  let totalDME = (202.43-162.16)*valDme/100 // Rumus Benar
+  let totalBis = valBisKuning*53.831//(53.831*(10 * valBisKuning/100))-((((((315.85-(315.85*20/100))*7.8*16)/250)*(10 * valBisKuning/100))*0.87)*312/1000)  // Rumus salah
+  let totalCFD = 2.97736*9*valCarFree // Rumus Benar sudah diubah
+  let totalDME = (202.43-162.16)*valDme/100 // Rumus Benar sudah diubah
   let totalDAC = valDac * 1
   let totalPenurunan = totalFSP + totalJAC + totalBis + totalCFD + totalDME + totalDAC
 
