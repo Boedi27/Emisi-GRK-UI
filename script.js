@@ -3,7 +3,7 @@ let totalEmisi = {
     TtListrik: 24338.46,
     TtAC: 1634.50,
     TtTransportasi: 1252.87,
-    TtSemen: 7104.83,
+    TtSemen: 6779.05,
     TtLPG: 202.43,
     TtSampah: 93.83,
     TtKertas: 62.15,
@@ -518,7 +518,7 @@ function gantiTeks() {
     TtListrik: 24338.46,
     TtAC: 1634.50,
     TtTransportasi: 1252.87,
-    TtSemen: 7104.83,
+    TtSemen: 6779.05,
     TtLPG: 202.43,
     TtSampah: 93.83,
     TtKertas: 62.15,
@@ -535,13 +535,13 @@ function gantiTeks() {
  } else if (dropdown.value == 2024){
   //Update data per-tahun 2024
   totalEmisi = {
-    TtListrik: 22913.48,
+    TtListrik: 24594.08,
     TtAC: 1701.18,
-    TtTransportasi: 1222.20,
-    TtSemen: 10.55,
-    TtLPG: 193.75,
-    TtSampah: 93.12,
-    TtKertas: 59.48,
+    TtTransportasi: 1260.38,
+    TtSemen: 7.86,
+    TtLPG: 204.56,
+    TtSampah: 94.00,
+    TtKertas: 62.80,
   }
   //console.log(totalEmisi)
 
@@ -555,13 +555,13 @@ function gantiTeks() {
 } else {
   //Update data per-tahun 2025
   totalEmisi = {
-    TtListrik: 23183.12,
+    TtListrik: 24849.69,
     TtAC: 1701.18,
-    TtTransportasi: 1230.25,
-    TtSemen: 10.55,
-    TtLPG: 196.03,
-    TtSampah: 93.30,
-    TtKertas: 60.18,
+    TtTransportasi: 1267.88,
+    TtSemen: 7.86,
+    TtLPG: 206.69,
+    TtSampah: 94.18,
+    TtKertas: 63.45,
   }
   //console.log(totalEmisi)
 
