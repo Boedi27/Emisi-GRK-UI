@@ -113,7 +113,7 @@ document.getElementById('update_form').addEventListener('submit', function(event
   let totalJAC = (((13148364*68.9/100)*valJenisAC/100 - (4.2 * (13148364*68.9/100)*valJenisAC/100)/5.7 )*0.87)/1000// Rumus benar
   let totalBis = (53.831*(10 * valBisKuning/100))-((((((315.85-(315.85*20/100))*7.8*16)/250)*(10 * valBisKuning/100))*0.87)*312/1000)  // Rumus salah
   let totalCFD = 4.4929*9*valCarFree // Rumus Benar
-  let totalDME = (373.53-299.22)*valDme/100 // Rumus Benar
+  let totalDME = (202.43-162.16)*valDme/100 // Rumus Benar
   let totalDAC = valDac * 1
   let totalPenurunan = totalFSP + totalJAC + totalBis + totalCFD + totalDME + totalDAC
 
